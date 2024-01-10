@@ -1,1 +1,1 @@
-console.log("This is a statement...");
+(()=>{"use strict";!function(e){let t=document.createElement("h1");t.textContent="K's Cuisine";let n=document.createElement("img");n.src="./src/restaurant2.png";let r=document.createElement("p");r.textContent="This restaurant is the best restaurant in the entire world. Or arguably, the universe. Why, you ask? I'll tell you why. Because it has my name on it.",e.appendChild(t),e.appendChild(n),e.appendChild(r)}(document.querySelector("#content"))})();

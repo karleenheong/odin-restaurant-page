@@ -1,1 +1,8 @@
-console.log("This is a statement...");
+import initialSetup from "./home.js";
+
+const contentDiv = document.querySelector("#content");
+initialSetup(contentDiv);
+
+
+
+
