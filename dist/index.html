@@ -3,8 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Restaurant Page</title>
+    <style>
+      * {
+        font-family: sans-serif;
+        text-align: center;
+      }
+      button {
+        background-color: lightblue;
+      }
+      button.active {
+        background-color: lightgreen;
+      }
+    </style>
   </head>
   <body>
+    <div class="tab">
+      <button class="tablinks" id="home">Home</button>
+      <button class="tablinks" id="menu">Menu</button>
+      <button class="tablinks" id="contact">Contact</button>
+    </div>
     <div id="content"></div>
     <script src="bundle.js"></script>
   </body>
